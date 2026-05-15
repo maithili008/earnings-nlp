@@ -1,0 +1,276 @@
+{
+  "summary": {
+    "total_transcripts": 320,
+    "tickers": [
+      "BAC",
+      "BK",
+      "C",
+      "CFG",
+      "COF",
+      "FITB",
+      "GS",
+      "HBAN",
+      "JPM",
+      "KEY",
+      "MS",
+      "MTB",
+      "NTRS",
+      "PNC",
+      "RF",
+      "STT",
+      "TFC",
+      "USB",
+      "WFC",
+      "ZION"
+    ],
+    "date_range": "2021-04-14 08:30:00 to 2025-01-23 09:00:00",
+    "median_composite": 0.2075
+  },
+  "accuracy": {
+    "overall_t1": 0.475,
+    "overall_t3": 0.5031,
+    "ci_t1_lower": 0.425,
+    "ci_t1_upper": 0.5281,
+    "ci_t3_lower": 0.4469,
+    "ci_t3_upper": 0.5625,
+    "top_quartile_t1": 0.4125,
+    "top_quartile_n": 80,
+    "baseline": 0.5
+  },
+  "correlation": {
+    "pearson_r": -0.104,
+    "pearson_pval": 0.0631,
+    "spearman_r": -0.0713,
+    "spearman_pval": 0.2036
+  },
+  "per_ticker": {
+    "BAC": {
+      "n": 16,
+      "accuracy_t1": 0.5625,
+      "accuracy_t3": 0.625,
+      "mean_composite": 0.2057,
+      "mean_return_t1": 0.0061
+    },
+    "BK": {
+      "n": 16,
+      "accuracy_t1": 0.5625,
+      "accuracy_t3": 0.4375,
+      "mean_composite": 0.1982,
+      "mean_return_t1": 0.0045
+    },
+    "C": {
+      "n": 16,
+      "accuracy_t1": 0.5,
+      "accuracy_t3": 0.5,
+      "mean_composite": 0.2041,
+      "mean_return_t1": 0.0033
+    },
+    "CFG": {
+      "n": 16,
+      "accuracy_t1": 0.5,
+      "accuracy_t3": 0.5,
+      "mean_composite": 0.1922,
+      "mean_return_t1": -0.0064
+    },
+    "COF": {
+      "n": 16,
+      "accuracy_t1": 0.3125,
+      "accuracy_t3": 0.5,
+      "mean_composite": 0.2406,
+      "mean_return_t1": 0.0138
+    },
+    "FITB": {
+      "n": 16,
+      "accuracy_t1": 0.375,
+      "accuracy_t3": 0.4375,
+      "mean_composite": 0.1607,
+      "mean_return_t1": -0.0036
+    },
+    "GS": {
+      "n": 16,
+      "accuracy_t1": 0.375,
+      "accuracy_t3": 0.375,
+      "mean_composite": 0.2132,
+      "mean_return_t1": 0.0076
+    },
+    "HBAN": {
+      "n": 16,
+      "accuracy_t1": 0.6875,
+      "accuracy_t3": 0.75,
+      "mean_composite": 0.2095,
+      "mean_return_t1": 0.0065
+    },
+    "JPM": {
+      "n": 16,
+      "accuracy_t1": 0.375,
+      "accuracy_t3": 0.3125,
+      "mean_composite": 0.2326,
+      "mean_return_t1": 0.0059
+    },
+    "KEY": {
+      "n": 16,
+      "accuracy_t1": 0.5,
+      "accuracy_t3": 0.5625,
+      "mean_composite": 0.2101,
+      "mean_return_t1": 0.004
+    },
+    "MS": {
+      "n": 16,
+      "accuracy_t1": 0.625,
+      "accuracy_t3": 0.6875,
+      "mean_composite": 0.2022,
+      "mean_return_t1": 0.0089
+    },
+    "MTB": {
+      "n": 16,
+      "accuracy_t1": 0.625,
+      "accuracy_t3": 0.5,
+      "mean_composite": 0.2116,
+      "mean_return_t1": -0.0056
+    },
+    "NTRS": {
+      "n": 16,
+      "accuracy_t1": 0.5625,
+      "accuracy_t3": 0.625,
+      "mean_composite": 0.228,
+      "mean_return_t1": -0.0055
+    },
+    "PNC": {
+      "n": 16,
+      "accuracy_t1": 0.1875,
+      "accuracy_t3": 0.3125,
+      "mean_composite": 0.2109,
+      "mean_return_t1": 0.006
+    },
+    "RF": {
+      "n": 16,
+      "accuracy_t1": 0.5625,
+      "accuracy_t3": 0.625,
+      "mean_composite": 0.1979,
+      "mean_return_t1": 0.0119
+    },
+    "STT": {
+      "n": 16,
+      "accuracy_t1": 0.625,
+      "accuracy_t3": 0.375,
+      "mean_composite": 0.1979,
+      "mean_return_t1": -0.0039
+    },
+    "TFC": {
+      "n": 16,
+      "accuracy_t1": 0.4375,
+      "accuracy_t3": 0.6875,
+      "mean_composite": 0.2019,
+      "mean_return_t1": -0.0037
+    },
+    "USB": {
+      "n": 16,
+      "accuracy_t1": 0.5,
+      "accuracy_t3": 0.5,
+      "mean_composite": 0.2083,
+      "mean_return_t1": -0.0048
+    },
+    "WFC": {
+      "n": 16,
+      "accuracy_t1": 0.375,
+      "accuracy_t3": 0.5,
+      "mean_composite": 0.2314,
+      "mean_return_t1": 0.0131
+    },
+    "ZION": {
+      "n": 16,
+      "accuracy_t1": 0.25,
+      "accuracy_t3": 0.25,
+      "mean_composite": 0.2259,
+      "mean_return_t1": 0.01
+    }
+  },
+  "per_quarter": {
+    "2021 Q1": {
+      "n": 20,
+      "accuracy_t1": 0.4,
+      "mean_composite": 0.2178
+    },
+    "2021 Q2": {
+      "n": 20,
+      "accuracy_t1": 0.45,
+      "mean_composite": 0.2187
+    },
+    "2021 Q3": {
+      "n": 20,
+      "accuracy_t1": 0.55,
+      "mean_composite": 0.2124
+    },
+    "2021 Q4": {
+      "n": 20,
+      "accuracy_t1": 0.3,
+      "mean_composite": 0.1907
+    },
+    "2022 Q1": {
+      "n": 20,
+      "accuracy_t1": 0.5,
+      "mean_composite": 0.2177
+    },
+    "2022 Q2": {
+      "n": 20,
+      "accuracy_t1": 0.4,
+      "mean_composite": 0.2172
+    },
+    "2022 Q3": {
+      "n": 20,
+      "accuracy_t1": 0.5,
+      "mean_composite": 0.2148
+    },
+    "2022 Q4": {
+      "n": 20,
+      "accuracy_t1": 0.55,
+      "mean_composite": 0.185
+    },
+    "2023 Q1": {
+      "n": 20,
+      "accuracy_t1": 0.35,
+      "mean_composite": 0.2217
+    },
+    "2023 Q2": {
+      "n": 20,
+      "accuracy_t1": 0.55,
+      "mean_composite": 0.2083
+    },
+    "2023 Q3": {
+      "n": 20,
+      "accuracy_t1": 0.65,
+      "mean_composite": 0.2212
+    },
+    "2023 Q4": {
+      "n": 20,
+      "accuracy_t1": 0.55,
+      "mean_composite": 0.1882
+    },
+    "2024 Q1": {
+      "n": 20,
+      "accuracy_t1": 0.45,
+      "mean_composite": 0.2287
+    },
+    "2024 Q2": {
+      "n": 20,
+      "accuracy_t1": 0.45,
+      "mean_composite": 0.2193
+    },
+    "2024 Q3": {
+      "n": 20,
+      "accuracy_t1": 0.45,
+      "mean_composite": 0.2045
+    },
+    "2024 Q4": {
+      "n": 20,
+      "accuracy_t1": 0.5,
+      "mean_composite": 0.1802
+    }
+  },
+  "sivb_timeline": [],
+  "signal_weights": {
+    "hedging": 0.4,
+    "guidance": 0.35,
+    "qa_vol": 0.25
+  }
+}

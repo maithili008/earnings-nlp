@@ -1,0 +1,222 @@
+{
+  "method": "adaptive_per_ticker",
+  "total": 320,
+  "accuracy_t1": 0.6062,
+  "accuracy_t3": 0.5969,
+  "ci_t1": [
+    0.553,
+    0.6594
+  ],
+  "high_conviction_accuracy": 0.5,
+  "high_conviction_n": 24,
+  "pearson_r": 0.2081,
+  "pearson_p": 0.0002,
+  "spearman_r": 0.2299,
+  "spearman_p": 0.0,
+  "ablation": {
+    "Hedging only": {
+      "accuracy": 0.5656,
+      "n": 320
+    },
+    "Guidance only": {
+      "accuracy": 0.5656,
+      "n": 320
+    },
+    "Q&A volatility only": {
+      "accuracy": 0.5437,
+      "n": 309
+    },
+    "Sentiment drop only": {
+      "accuracy": 0.6667,
+      "n": 12
+    },
+    "All signals combined": {
+      "accuracy": 0.6062,
+      "n": 320
+    }
+  },
+  "per_ticker": {
+    "BAC": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.875,
+      "direction": "normal",
+      "mean_ret": 0.0061
+    },
+    "BK": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "ci_low": 0.3125,
+      "ci_high": 0.8125,
+      "direction": "inverted",
+      "mean_ret": 0.0045
+    },
+    "C": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.875,
+      "direction": "inverted",
+      "mean_ret": 0.0033
+    },
+    "CFG": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "ci_low": 0.4375,
+      "ci_high": 0.875,
+      "direction": "normal",
+      "mean_ret": -0.0064
+    },
+    "COF": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "ci_low": 0.4375,
+      "ci_high": 0.875,
+      "direction": "inverted",
+      "mean_ret": 0.0138
+    },
+    "FITB": {
+      "n": 16,
+      "accuracy": 0.5,
+      "ci_low": 0.25,
+      "ci_high": 0.75,
+      "direction": "normal",
+      "mean_ret": -0.0036
+    },
+    "GS": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "ci_low": 0.3125,
+      "ci_high": 0.8125,
+      "direction": "inverted",
+      "mean_ret": 0.0076
+    },
+    "HBAN": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.875,
+      "direction": "normal",
+      "mean_ret": 0.0065
+    },
+    "JPM": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.8125,
+      "direction": "inverted",
+      "mean_ret": 0.0059
+    },
+    "KEY": {
+      "n": 16,
+      "accuracy": 0.5,
+      "ci_low": 0.25,
+      "ci_high": 0.75,
+      "direction": "normal",
+      "mean_ret": 0.004
+    },
+    "MS": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "ci_low": 0.3125,
+      "ci_high": 0.8125,
+      "direction": "normal",
+      "mean_ret": 0.0089
+    },
+    "MTB": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "ci_low": 0.4375,
+      "ci_high": 0.875,
+      "direction": "normal",
+      "mean_ret": -0.0056
+    },
+    "NTRS": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.875,
+      "direction": "normal",
+      "mean_ret": -0.0055
+    },
+    "PNC": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "ci_low": 0.4375,
+      "ci_high": 0.875,
+      "direction": "inverted",
+      "mean_ret": 0.006
+    },
+    "RF": {
+      "n": 16,
+      "accuracy": 0.5,
+      "ci_low": 0.25,
+      "ci_high": 0.75,
+      "direction": "normal",
+      "mean_ret": 0.0119
+    },
+    "STT": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "ci_low": 0.3125,
+      "ci_high": 0.8125,
+      "direction": "normal",
+      "mean_ret": -0.0039
+    },
+    "TFC": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.875,
+      "direction": "inverted",
+      "mean_ret": -0.0037
+    },
+    "USB": {
+      "n": 16,
+      "accuracy": 0.5625,
+      "ci_low": 0.3125,
+      "ci_high": 0.8125,
+      "direction": "normal",
+      "mean_ret": -0.0048
+    },
+    "WFC": {
+      "n": 16,
+      "accuracy": 0.625,
+      "ci_low": 0.375,
+      "ci_high": 0.8125,
+      "direction": "normal",
+      "mean_ret": 0.0131
+    },
+    "ZION": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "ci_low": 0.4375,
+      "ci_high": 0.875,
+      "direction": "inverted",
+      "mean_ret": 0.01
+    }
+  },
+  "ticker_directions": {
+    "CFG": 1,
+    "MTB": 1,
+    "BAC": 1,
+    "HBAN": 1,
+    "NTRS": 1,
+    "WFC": 1,
+    "MS": 1,
+    "STT": 1,
+    "USB": 1,
+    "FITB": 1,
+    "KEY": 1,
+    "RF": 1,
+    "BK": -1,
+    "GS": -1,
+    "C": -1,
+    "JPM": -1,
+    "TFC": -1,
+    "COF": -1,
+    "PNC": -1,
+    "ZION": -1
+  }
+}
