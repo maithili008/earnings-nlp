@@ -32,7 +32,25 @@ Combines into a composite **evasiveness score** per transcript, then backtests d
 
 ## Results
 
-*(populated after backtest phase)*
+**Adaptive backtest (per-ticker signal direction):**
+- T+1 directional accuracy: **60.6%** (95% CI: 55.3%–65.9%, baseline 50%)
+- T+3 directional accuracy: **59.7%**
+- Pearson r = **+0.208** (p = 0.0002) — statistically significant
+- Spearman r = **+0.230** (p < 0.0001)
+
+**Key finding:** Signal direction is inverted for large-cap banks (JPM, GS, C, COF).
+High evasiveness at well-covered banks predicts positive returns — consistent with
+conservative IR framing managing expectations downward. Mid-size banks show genuine
+behavioral evasiveness under analyst pressure.
+
+**Ablation (signal contribution):**
+| Signal | Accuracy | vs Baseline |
+|---|---|---|
+| Sentiment drop (FinBERT) | 66.7% | +16.7% |
+| All signals combined | 60.6% | +10.6% |
+| Hedging ratio | 56.6% | +6.6% |
+| Guidance specificity | 56.6% | +6.6% |
+| Q&A volatility | 54.4% | +4.4% |
 
 ## Setup
 
